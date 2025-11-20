@@ -1,0 +1,63 @@
+/* Tipografía general */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+/* Contenedor centrado */
+.container {
+    max-width: 700px;
+    margin: auto;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+/* Título */
+.titulo {
+    font-size: 2.4rem;
+    margin-bottom: 15px;
+    color: #2b2b2b;
+}
+
+/* Subtítulo */
+.subtitulo {
+    font-size: 1.3rem;
+    font-weight: 300;
+    color: #555;
+    margin-bottom: 30px;
+}
+
+/* Imagen principal */
+.imagen {
+    width: 100%;
+    max-width: 450px;
+    margin: 20px 0;
+    border-radius: 10px;
+}
+
+/* Descripción */
+.descripcion {
+    font-size: 1.1rem;
+    margin: 20px auto 30px;
+    line-height: 1.5;
+    color: #444;
+}
+
+/* Botón principal */
+.boton {
+    display: inline-block;
+    background-color: #4C8BF5;
+    color: #fff;
+    padding: 14px 24px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.boton:hover {
+    background-color: #3b6ec2;
+}
